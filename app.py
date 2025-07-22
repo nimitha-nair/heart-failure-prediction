@@ -20,7 +20,6 @@ def home():
 
         return render_template('index.html', prediction_text=result)
 
-    # For GET request (initial page load / refresh)
     return render_template('index.html', prediction_text=None)
 
 if __name__ == "__main__":
